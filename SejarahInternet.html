@@ -5,8 +5,13 @@
 			Sejarah internet woyooo
 		</title>
 		<style type="text/css">
+
+			body, html{
+				height: 100%;
+				margin: 0;
+			}
 			.accordion {
-			    background-color: #97e8ef;
+			    background-color: #5F9391;
 			    color: #444;
 			    cursor: pointer;
 			    padding: 18px;
@@ -14,18 +19,20 @@
 			    border: none;
 			    text-align: left;
 			    outline: none;
-			    font-size: 15px;
+			    font-size: 30px;
 			    transition: 0.4s;
 			}
 
 			.active, .accordion:hover {
-			    background-color: #1dd0e0;
+			    background-color: #83B4AE;
 			}
 
 			.panel {
 			    padding: 0 18px;
 			    background-color: white;
 			    overflow: hidden;
+			    font-family: Arial, Helvetica, sans-serif;
+			    font-size: 20px;
 
 			    /*tambahan untuk animasi*/
 			    max-height: 0; 
@@ -34,23 +41,62 @@
 
 			/*icons*/
 			.accordion:after {
-		    content: '\002B';
-		    color: #777;
-		    font-weight: bold;
-		    float: right;
-		    margin-left: 5px;
+			    content: '\002B';
+			    color: #777;
+			    font-weight: bold;
+			    float: right;
+			    margin-left: 5px;
 			}
 
 			.active:after {
 			    content: "\2212";
+			    margin: 0px;
 			}
+
+/*			body { margin: 0; }*/
+
+			.pemanis{
+				width: 100%;
+				/*padding-left: -1px;*/
+				float: center;
+				left: 0;
+			}31
+
+			.content{
+				/*border: 10px solid black;*/
+				height: auto;
+				width: auto;
+				padding: 0 10px 20px 10px;
+				font-family: "Lucida Console", Monaco, monospace;
+			}
+
+		    #main {
+            background-image: url('IOT.jpg');
+            width: 100%;
+            height: 100%;31
+            outline: none;31
+            padding: 0px;
+        	}3131
+        	#judul{
+        		margin: 0;
+        		font-size: 25px;
+        		width: 100%;
+        		text-align: center;
+/*        		heigh : 50px;*/
+/*        		padding: 0 10px 20px 10px;*/
+        	}
 		</style>
 	</head>
 
 	<body>
-		<div id="judul">
 
-			<span id = "artikel"><h1>Pengertian internet</h1></span>
+		<div id="main">
+		</div>
+
+		<div class="content">
+			<div id = "judul">
+				<h1>Pengertian internet</h1>
+			</div>
 
 			<button class="accordion">Menurut Wikipedia</button>
 			<div class="panel">
@@ -62,7 +108,6 @@
 
 				Oleh sebab itu ARPANET dipecah manjadi dua, yaitu "MILNET" untuk keperluan militer dan "ARPANET" baru yang lebih kecil untuk keperluan non-militer seperti, universitas-universitas. Gabungan kedua jaringan akhirnya dikenal dengan nama DARPA Internet, yang kemudian disederhanakan menjadi Internet.</p>
 			</div>
-		</div>
 
 			<button class="accordion">Menurut nesabamedia</button>
 			<div class="panel">
