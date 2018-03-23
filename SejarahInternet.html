@@ -4,128 +4,11 @@
 		<title>
 			Sejarah internet woyooo
 		</title>
-		<style type="text/css">
-
-			body, html{
-				height: 100%;
-				margin: 0;
-			}
-
-			/*MENU-NAVBAR*/
-			#navbar {
-			  background-color: #0B3656;
-			  position: fixed;
-			  top: 0;
-			  width: 100%;
-			  display:block;
-			  transition: top 0.3s;
-			  font-family: "Lucida Console", Monaco, monospace;
-			}
-
-			#navbar a {
-			  float: right;
-			  display: block;
-			  color: #f2f2f2;
-			  text-align: center;
-			  padding: 15px;
-			  text-decoration: none;
-			  font-size: 23px;
-			}
-
-			#navbar a:hover {
-			  background-color: #ddd;
-			  color: black;
-			}
-
-
-			/*ACCORDIONS*/
-			.accordion {
-			    background-color: #ce4939;
-			    color: #424242;
-			    cursor: pointer;
-			    padding: 18px;
-			    width: 80%;
-			    border: none;
-			    text-align: left;
-			    outline: none;
-			    font-size: 30px;
-			    transition: 0.4s;
-			    border-radius: 5px;
-			    margin: 3px;
-			    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
-    			transition: width 2s, height 4s;
-			}
-
-			.active, .accordion:hover {
-			    background-color: #f26554;
-			    width: 100%;
-			}
-
-			.panel {
-			    padding: 0 18px;
-			    background-color: white;
-			    overflow: hidden;
-			    font-family: Arial, Helvetica, sans-serif;
-			    font-size: 20px;
-
-			    /*tambahan untuk animasi*/
-			    max-height: 0; 
-			    transition: max-height 0.2s ease-out;
-			}
-
-			/*icons*/
-			.accordion:after {
-			    content: '\002B';
-			    color: #777;
-			    font-weight: bold;
-			    float: right;
-			    margin-left: 5px;
-			}
-
-			.active:after {
-			    content: "\2212";
-			    margin: 0px;
-			}
-
-/*			body { margin: 0; }*/
-
-			.pemanis{
-				width: 100%;
-				/*padding-left: -1px;*/
-				float: center;
-				left: 0;
-			}
-
-			.content{
-/*				border: 10px solid black;*/
-				height: auto;
-				width: auto;
-				padding: 0 20px 20px 20px;
-				margin-top: 100px;
-				font-family: "Lucida Console", Monaco, monospace;
-				text-align: center;
-			}
-
-		    #landing {
-            background-image: url('lp.jpg');
-            background-position: center;
-            width: 100%;
-            height: 100%;
-            outline: none;
-            padding: 0px;
-            margin-top: 50px;
-        	}
-
-        	#judul{
-        		margin: 0;
-        		font-size: 25px;
-        		width: 100%;
-        		text-align: center;
-        		margin-bottom: 50px;
-/*        		heigh : 50px;*/
-/*        		padding: 0 10px 20px 10px;*/
-        	}
-		</style>
+		<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet"> <!-- fonts -->
+		<link rel="stylesheet" type="text/css" href="styleku.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+		</script>
+		<
 	</head>
 
 	<body>
@@ -133,7 +16,7 @@
 		<div id="navbar">
 		  <a href="#home">Home</a>
 		  <a href="#news">News</a>
-		  <a href="#contact">Contact</a>
+		  <a href="contact.html">Contact</a>
 		</div>
 
 		<div id="landing">
@@ -143,6 +26,10 @@
 			<div id = "judul">
 				<h1>Pengertian internet</h1>
 			</div>
+
+				<P>
+					Berikut merupakan pengertian internet dari berbagai sumber(klik untuk melihat) : 
+				</P>
 
 			<button class="accordion">Menurut Wikipedia</button>
 			<div class="panel">
@@ -160,6 +47,25 @@
 				<p>Pengertian internet (interconnection networking) sendiri adalah jaringan komunikasi global yang terbuka dan menghubungkan jutaan bahkan milyaran jaringan komputer dengan berbagai tipe dan jenis, dengan menggunakan tipe komunikasi seperti telepon, satelit dan lain sebagainya. Awalnya internet merupakan jaringan komputer yang dibentuk oleh Departemen Pertahanan Amerika Serikat pada tahun 1969 melalui sebuah proyek yang disebut dengan ARPANET. Misi awal dari proyek ini awalnya hanya untuk keperluan militer saja, tetapi lambat laun terus berkembang dan bisa dinikmati oleh semua kalangan.</p>
 			</div>
 
+			<button class="accordion">Menurut Lani Sidharta (1996)</button>
+			<div class="panel">
+				<p>walaupun secarafisik Internet adalah interkoneksi antar jaringan komputer namun secara umum Internet harus dipandang sebagai sumber daya informasi. Isi Internet adalah informasi, dapat dibayangkan sebagai suatu database atau perpustakaan multimedia yang sangat besar dan lengkap. Bahkan Internet dipandang sebagai dunia dalam bentuk lain (maya) karena hampir seluruh aspek kehidupan di dunia nyata ada di Internet seperti bisnis, hiburan, olah raga, politik dan lain sebagainya.</p>
+			</div>
+
+
+			<button class="accordion">Drew Heywood (1996)</button>
+			<div class="panel">
+				<p>sejarah Internet bermula pada akhir dekade 60-an saat United States Department of Defense (DoD) memerlukan standar baru untuk komunikasi Internet working. Yaitu standar yang mampu menghubungkan segala jenis komputer di DoD dengan komputer milik kontraktor militer, organisasi penelitian dan ilmiah di universitas. Jaringan ini harus kuat, aman dan tahan kerusakan sehingga mampu beroperasi didalam kondisi minimum akibat bencana atau perang.</p>
+			</div>
+
+						<button class="accordion">Menurut Allan (2005, p12)</button>
+			<div class="panel">
+				<p> internet adalah sekumpulan jaringan komputer yang saling terhubung secara fisik dan memiliki kemampuan untuk membaca dan menguraikan protokol komunikasi tertentu yang disebut Internet Protocol (IP) dan Transmission Control Protocol (TCP). Protokol adalah spesifikasi sederhana mengenai bagaimana komputer saling bertukar informasi.</p>
+			</div>
+		</div>
+
+		<div class="footer">
+			<p style="color: white">&copy; 2018 Zauvik Rizal. All Right Reserved.</p>
 		</div>
 
 		<script>

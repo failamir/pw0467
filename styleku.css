@@ -1,0 +1,134 @@
+
+			body, html{
+				height: 100%;
+				margin: 0;
+			}
+
+			/*MENU-NAVBAR*/
+			#navbar {
+			  background-color: #0B3656;
+			  position: fixed;
+			  top: 0;
+			  width: 100%;
+			  display:block;
+			  transition: top 0.3s;
+			  font-family: "Lucida Console", Monaco, monospace;
+			}
+
+			#navbar a {
+			  float: right;
+			  display: block;
+			  color: #f2f2f2;
+			  text-align: center;
+			  padding: 15px;
+			  text-decoration: none;
+			  font-size: 23px;
+			}
+
+			#navbar a:hover {
+			  background-color: #ddd;
+			  color: black;
+			}
+
+
+			/*ACCORDIONS*/
+			.accordion {
+			    background-color: #ce4939;
+			    color: #424242;
+			    cursor: pointer;
+			    padding: 18px;
+			    width: 80%;
+			    border: none;
+			    text-align: left;
+			    outline: none;
+			    font-size: 30px;
+			    transition: 0.4s;
+			    border-radius: 5px;
+			    margin: 3px;   
+			    transition: width 2s, height 4s;
+			}
+
+			.active, .accordion:hover {
+			    background-color: #f26554;
+			    width: 100%;
+			}
+
+			.panel {
+			    padding: 0 18px;
+			    background-color: white;
+			    overflow: hidden;
+			    font-family: Arial, Helvetica, sans-serif;
+			    text-align: left;
+			    font-size: 20px;
+
+			    /*tambahan untuk animasi*/
+			    max-height: 0; 
+			    transition: max-height 0.2s ease-out;
+			}
+
+			/*icons*/
+			.accordion:after {
+			    content: '\002B';
+			    color: #777;
+			    font-weight: bold;
+			    float: right;
+			    margin-left: 5px;
+			}
+
+			.active:after {
+			    content: "\2212";
+			    margin: 0px;
+			}
+
+/*			body { margin: 0; }*/
+
+			.pemanis{
+				width: 100%;
+				/*padding-left: -1px;*/
+				float: center;
+				left: 0;
+			}
+
+			.content{
+/*				border: 10px solid black;*/
+				height: auto;
+				width: auto;
+				padding: 0 20px 20px 20px;
+				margin-top: 100px;
+				font-family: "Lucida Console", Monaco, monospace;
+				text-align: center;
+				font-size: 22px
+			}
+
+			.footer{
+				width: 100%;
+				height : 80px;
+				background-color: #0B3656;
+				text-align: center;
+				line-height: 60px;
+				font-size: 14px;
+				outline: none;
+            	font-family: Arial, Helvetica, sans-serif;
+            	border: 0px;
+			}
+
+		    #landing {
+            background-image: url('lp.jpg');
+            background-position: center;
+            width: 100%;
+            height: 100%;
+            outline: none;
+            padding: 0px;
+            margin-top: 30px;
+        	}
+
+        	#judul{
+        		margin: 0;
+        		font-size: 25px;
+        		width: 100%;
+        		text-align: center;
+        		margin-bottom: 50px;
+        		font-family: 'Muli', sans-serif;
+/*        		heigh : 50px;*/
+/*        		padding: 0 10px 20px 10px;*/
+        	}
