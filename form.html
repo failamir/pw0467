@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sinau form</title>
+
+	<style type="text/css">
+
+	.content{
+		color: white;
+		border:0px;
+	}
+
+	.judul{
+		margin: 0 auto;
+		background-color: #494949;
+		width:20%;
+		text-align: center;
+		padding-top: 10px;
+		border-top-right-radius: 5px;
+		border-top-left-radius: 5px;
+	}
+
+	#register{
+		background-color: #494949;
+		width: 30%;
+		padding: 1%;
+		border-radius: 5px;
+		padding-bottom: 20px;
+		align : center;
+		margin: 0 auto;
+
+	}
+
+	input, textarea{
+		border-radius: 3px;
+		border: 0;
+		padding: 3px;
+		width :90%;
+		margin: 10px;
+	}
+
+	.gender{
+		width: 0%;
+	}
+
+	button{
+		width: 45%;
+	}
+	.register{
+		margin-left: 10px;
+	}
+	</style>
+
+</head>
+<body>
+<div class="content">
+<div class="judul">FORM REGISTER</div>
+<form id="register" method="POST">
+	<input name="nama" type="text" placeholder="Nama lengkap"></input><br/>
+
+	<input name="email" type="text" placeholder="email"></input><br/>
+
+	<input name="password" type="text" placeholder="password"></input><br/>
+
+	<input name="confirm" type="text" placeholder="Confirm password"></input><br/>
+
+	Pilih jenis kelamin :<br/>
+	<input name="male" type="radio" class="gender">male</input><br/>
+	<input name="female" type="radio" class="gender">female</input><br/>
+
+	<textarea name="nama" type="text" placeholder="Alamat"></textarea><br/>
+
+	<input name="kodepos" type="text" placeholder="Kode pos"></input><br/>
+
+	<input name="phone" type="text" placeholder="No telepon"></input><br/>
+
+	<button name="register" class="register">Register</button>
+	<button name="cancel">Cancel</button>
+</form>
+</div>
+</body>
+</html>
