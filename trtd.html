@@ -5,8 +5,9 @@
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 	<style type="text/css">
 		table ,tr ,th ,td{
-			border : 0PX;
+			border : 3px #494949;
 			text-align: center;
+			border-color: #494949;
 
 		}
 
@@ -17,6 +18,16 @@
 		.genap{
 			background-color: #f7e1e6;
 		}
+
+		.header1{
+			background-color: #f9597e;
+		}
+
+		.judul{
+			background-color: #6af2c0;
+		}
+
+		/*cobo*/
 
 		.left{
 			height: 300px;
@@ -33,6 +44,7 @@
 		}
 
 		.left:hover{
+			transition: width 1s;
 			width: 75%
 		}
 
@@ -41,6 +53,7 @@
 		}
 
 		.left:hover + .right{
+			transition: width 1s;
 			width: 25%;
 		}
 /*
@@ -55,7 +68,10 @@
 </head>
 <body>
 	<table style="width:100%">
-		<tr>
+		<tr class="header1">
+			<th colspan="6">Data diri</th>
+		</tr>
+		<tr class="judul">
 			<th>NAMA LENGKAP</th>
 			<th>JENIS KELAMIN</th>
 			<th>EMAIL</th>
@@ -65,7 +81,7 @@
 
 	<!-- 1 -->
 		<tr class="ganjil">
-			<td>zav</td>
+			<td rowspan="2">zav</td>
 			<td>L</td>
 			<td>zav@ymail.com</td>
 			<td>089</td>
@@ -73,7 +89,6 @@
 		</tr>
 
 		<tr class="genap">
-			<td>zav</td>
 			<td>L</td>
 			<td>zav@ymail.com</td>
 			<td>089</td>
@@ -118,8 +133,8 @@
 			<td>zav@ymail.com</td>
 			<td>089</td>
 			<td>19 maret 1998</td>
-		</tr class="genap">
-			<tr>
+		</tr>
+			<tr class="genap">
 			<td>zav</td>
 			<td>L</td>
 			<td>zav@ymail.com</td>
