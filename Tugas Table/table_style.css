@@ -1,0 +1,49 @@
+body{
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+th, td{
+	border: 3px;
+	border: 1px solid #ddd;
+}
+
+th{
+	height: 50px;
+}
+
+td{
+	height: 40px;
+}
+
+img{
+	max-height: 200px;
+}
+
+.set_width{
+	width: 30%;
+}
+
+tr:nth-child(odd){background-color: #e8edec} /*odd diganti even uga bisa*/
+
+.gambar{
+	text-align: center;
+	padding: 0;
+	background-color: #fff;
+}
+
+tr:hover {
+	background-color: #ffe9d1
+}
+
+td{
+	padding-left: 10px;
+}
+
+.vendor{
+	text-align: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sinau form</title>
+	<link rel="stylesheet" type="text/css" href="form_style.css">
+
+</head>
+<body>
+<div class="outer">
+<div class ="container">
+	<div class="judul">FORM REGISTER</div>
+	<form id="register" method="POST">
+		<input name="nama" type="text" placeholder="Nama lengkap"></input><br/>
+
+		<input name="email" type="text" placeholder="email"></input><br/>
+
+		<input name="password" type="password" placeholder="password"></input><br/>
+
+		<input name="confirm" type="password" placeholder="Confirm password"></input><br/>
+
+		<p style="padding-left: 12px">Pilih jenis kelamin :<br/></p>
+		<input name="male" type="radio" class="gender">male</input><br/>
+		<input name="female" type="radio" class="gender">female</input><br/>
+
+		<textarea name="nama" type="text" placeholder="Alamat" style="resize : none"></textarea><br/>
+
+		<input name="kodepos" type="text" placeholder="Kode pos"></input><br/>
+
+
+		<select class="telp" name="tlp_prefix">
+			<option value="indo">+62</option>
+			<option value="al-quds">+60</option>
+			<option value="palestine">+63</option>
+		</select>
+		<input class="telp_komplit" name="phone" type="text" placeholder="No telepon" ></input><br/>
+
+		<button name="bt_register" class="bt_register">Register</button>
+		<button name="bt_cancel">Cancel</button>
+	</form>
+</div>
+</div>
+</body>
+</html>
