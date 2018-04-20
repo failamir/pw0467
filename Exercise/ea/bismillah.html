@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>anu</title>
+	<link rel="stylesheet" type="text/css" href="bismillah_style.css">
+	<script src="konversiUang.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="header">
+		<div class="logo"></div>
+		<div class="navbar1"></div>
+		<div class="navbar2"></div>
+	</div>
+	<div class="content">
+		<div class="content1">
+		</div>
+		<div class="content2">
+			<div class="content2_left"></div>
+			<div class="content2_right"></div>
+			<div class="content2_center"></div>
+		</div>
+		<div class="itungan">
+			<form name="konversi" action="#">
+				<p>konversi mata uang</p>
+				<input type="text" name="uangku" value="" /><br/> <!-- jika ini diberi value maka value akan tampil,jadi pake identifier name wae -->
+				<input type="radio" name="select_kurs" value="USD"/> konversi ke USD
+				<input type="radio" name="select_kurs" value="IDR"/> konversi ke IDR <br/>
+				<input type="button" value="hasil" onClick="kon()"/><br/>
+				<!-- <input type="text" name="hasil" disabled="true" /> --> <!-- ini jika parsing dari javascript menggunakan myForm.hasil.value = res; -->
+				<div class="div_hasil"><p id="result">Hasil Konversi</p></div>
+			</form>
+		</div>
+	</div>
+	<div class="footer"></div>
+</div> 
+</body>
+</html>
