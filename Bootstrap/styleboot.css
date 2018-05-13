@@ -1,0 +1,48 @@
+
+html body{
+	font-family: 'Open Sans', sans-serif;
+}
+.header{
+	height: 150px;
+	background-color: #474747;
+	text-align: center;
+}
+.headerT{
+	padding-top: 55px;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbarku{
+	padding-top: 10px;
+	height: 70px;
+	background-color: #e8175d;
+	cursor: pointer;
+}
+.navbarku:hover{
+	background-color: #f22b6e;
+}
+.scale{
+	transition: 0.3s;
+}
+.navbarku:hover > .scale{
+	transform: scale(1.5,1.5);
+	transition: 0.3s;
+}
+.contentHeight{
+	background-color: #efefef;
+	padding: 200px 0 200px 0;
+	text-align: center;
+}
+.btnReady{
+	width: 100px;
+	border-radius: 100px;
+	background-color: #e8175d;
+}
+.btnReady:hover, .btnReady:active{
+	background-color: #f22b6e;
+}
